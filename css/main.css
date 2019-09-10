@@ -1,15 +1,12 @@
 
 h3,h4,h5,p,li,a, address {
-font-family: 'Work Sans', sans-serif;
-font-family: 'Fredoka One', cursive;
 font-family: 'Source Sans Pro', sans-serif;
 color: #1d1d1d;
 	font-weight: normal;
 }
 
-h1,h2 {
+h1,h2, .navbar a.nav-item.nav-link {
 	font-family: 'Fredoka One', cursive;
-	font-family: 'Source Sans Pro', sans-serif;
 	color: #1d1d1d;
 		font-weight: normal;
 	}
@@ -25,14 +22,29 @@ h1.span {
 h2 {
 	font-size: 26px;
 }
+.navbar a.nav-item.nav-link{
+	font-size: 30px;
+    color: white;
+}
 
 a, link , a:hover, link:hover {
 	text-decoration: none;
 }
+.logo {
+margin: 40px 0;
+max-width: 400px;
+}
 
 p {
+		font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 	line-height: 22px;
+}
+.navbar .collapse.navbar-collapse {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	
 }
 
 
@@ -42,7 +54,7 @@ body {
 }
 
 header {
-position: fixed;
+background: #00A82D;
 z-index: 10;
 top: 0;
 left: 0;
@@ -121,9 +133,7 @@ margin-top: 7px;
 	max-width: 100%;
 }
 
-header {
-	background: white;
-}
+
 
 .navbar {
     padding: 0;
@@ -145,181 +155,6 @@ header {
 	height: 80vh;
 }
 
-
-
-/* DivTable.com */
-.divTable{
-	display: table;
-	width: 100%;
-}
-.divTableRow {
-	display: table-row;
-}
-.divTableHeading {
-	background-color: #EEE;
-	display: table-header-group;
-}
-.divTableCell, .divTableHead {
-	display: table-cell;
-	padding: 3px 0px;
-}
-.divTableHeading {
-	background-color: #EEE;
-	display: table-header-group;
-	font-weight: bold;
-}
-.divTableFoot {
-	background-color: #EEE;
-	display: table-footer-group;
-	font-weight: bold;
-}
-.divTableBody {
-	display: table-row-group;
-}
-
-
-/* bio page */
-
-.bio .main-section {
-	margin-top: 100px;
-	margin-bottom: 100px;
-}
-
-
-.bio h2 {
-	margin: 60px 0 20px 0;
-	font-size: 26px;
-	display: block;
-}
-
-
-.bio h3 {
-	font-size: 20px;
-	margin: 0 0 10px 0;
-}
-
-.bio  .date	 {
-	width: 140px;
-}
-
-.bio  .date h3 {
-	font-size: 16px;
-	margin: 0;
-}
-
-/* gallery page */
-
-
-.gallery  .main-section {
-	margin-top: 100px;
-	margin-bottom: 100px;
-}
-
-.img-thumbnail {
-	border: none;
-	border-radius: 0px;
-	padding: 0;
-	margin-bottom: 30px;
-}
-
-.row.gallery {
-	margin-bottom: 30px;
-}
-
-
-.main-text {
-	position: fixed;
-	right: 15px;
-	bottom: 15px;
-	background: white;
-	padding: 15px;
-	z-index: 11;
-	width: 50%;
-	background-color: rgba(355, 355, 355, 0.6);
-
-}
-
-.main-text p {
-	font-size: 12px;
-	line-height: 16px;
-	margin: 0;
-}
-
-html,
-body {
-	overflow-x: hidden; /* Prevent scroll on narrow devices */
-}
-
-body {
-	padding-top: 56px;
-}
-
-@media (max-width: 991.98px) {
-	.offcanvas-collapse {
-		position: fixed;
-		top: 56px; /* Height of navbar */
-		bottom: 0;
-		left: 100%;
-		width: 100%;
-		padding-right: 1rem;
-		padding-left: 1rem;
-		overflow-y: auto;
-		visibility: hidden;
-		background-color: #343a40;
-		transition-timing-function: ease-in-out;
-		transition-duration: .3s;
-		transition-property: left, visibility;
-	}
-	.offcanvas-collapse.open {
-		left: 0;
-		visibility: visible;
-	}
-}
-
-.nav-scroller {
-	position: relative;
-	z-index: 2;
-	height: 2.75rem;
-	overflow-y: hidden;
-}
-
-.nav-scroller .nav {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: nowrap;
-	flex-wrap: nowrap;
-	padding-bottom: 1rem;
-	margin-top: -1px;
-	overflow-x: auto;
-	color: rgba(255, 255, 255, .75);
-	text-align: center;
-	white-space: nowrap;
-	-webkit-overflow-scrolling: touch;
-}
-
-.nav-underline .nav-link {
-	padding-top: .75rem;
-	padding-bottom: .75rem;
-	font-size: .875rem;
-	color: #6c757d;
-}
-
-.nav-underline .nav-link:hover {
-	color: #007bff;
-}
-
-.nav-underline .active {
-	font-weight: 500;
-	color: #343a40;
-}
-
-.text-white-50 { color: rgba(255, 255, 255, .5); }
-
-.bg-purple { background-color: #6f42c1; }
-
-.lh-100 { line-height: 1; }
-.lh-125 { line-height: 1.25; }
-.lh-150 { line-height: 1.5; }
 
 .navbar.bg-light {
 	background-color: transparent!important;
@@ -401,8 +236,19 @@ body {
 		opacity: 1;
 
 	}
-	header {
+	.navbar-light .navbar-toggler {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+	}
+	.navbar-toggler {
 		background: white;
+	}
+	.logo {
+    margin: 16px 0;
+    max-width: 260px;
+	}
+	header {
+		background: transparent;
 		height: 65px!important;
 	}
 	.navbar-collapse ul {

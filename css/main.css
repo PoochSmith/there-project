@@ -1,10 +1,18 @@
 
-
-h1,h2,h3,h4,h5,p,li,a, address {
+h3,h4,h5,p,li,a, address {
 font-family: 'Work Sans', sans-serif;
+font-family: 'Fredoka One', cursive;
+font-family: 'Source Sans Pro', sans-serif;
 color: #1d1d1d;
 	font-weight: normal;
 }
+
+h1,h2 {
+	font-family: 'Fredoka One', cursive;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #1d1d1d;
+		font-weight: normal;
+	}
 
 h1 {
 	font-size: 32px;
@@ -29,98 +37,9 @@ p {
 
 
 
-
-.hero-picture {
-background: url("../images/home-image.jpeg");
-background-size:cover;
-background-position: 50% 50%;
-background-repeat: no-repeat;
+body {
+	background: #00A82D;
 }
-
-.hero-panel-contact {
-background: url("../images/contact-lucy-barlow.jpg");
-background-size:cover;
-background-position: 50% 0%;
-background-repeat: no-repeat;
-}
-
-.hero-panel-about {
-	 background: url("../images/scotland-costline-rocks.jpg");
-	 background-size:cover;
-	 background-position: 50% 50%;
-	 background-repeat: no-repeat;
- }
-
-.hero-panel-about-four {
-	background: url("../images/scotland-bothy.jpg");
-	background-size:cover;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-}
-
-.hero-panel-about-three {
-	background: url("../images/scotland-rocks.jpg");
-	background-size:cover;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-}
-
-.hero-panel-0 {
-background: url("../images/Grass_Dispersal.jpg");
-background-size:cover;
-background-position: 50% 50%;
-background-repeat: no-repeat;
-}
-
-.hero-panel-1 {
-background: url("../images/art1.jpg");
-background-size:cover;
-background-position: 50% 50%;
-background-repeat: no-repeat;
-}
-
-.hero-panel-2 {
-background: url("../images/art2.jpg");
-background-size:cover;
-background-position: 50% 50%;
-background-repeat: no-repeat;
-}
-
-.hero-panel-3 {
-	background: url("../images/art6.jpg");
-background-size:cover;
-background-position: 50% 50%;
-background-repeat: no-repeat;
-}
-
-.hero-panel-4 {
-background: url("../images/Rubna-nan-Sasan.jpg");
-background-size:cover;
-background-position: 50% 50%;
-background-repeat: no-repeat;
-}
-
-.hero-panel-5 {
-background: url("../images/art5.jpg");
-background-size:cover;
-background-position: 50% 50%;
-background-repeat: no-repeat;
-}
-
-.hero-panel-6 {
-background: url("../images/LUCY-10.jpg");
-background-size:cover;
-background-position: 50% 50%;
-background-repeat: no-repeat;
-}
-
-.hero-panel-7 {
-background: url("../images/art7.jpg");
-background-size:cover;
-background-position: 50% 50%;
-background-repeat: no-repeat;
-}
-
 
 header {
 position: fixed;

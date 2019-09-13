@@ -62,6 +62,9 @@ margin: 0;
 .wrapper.h100 {
 	height: calc(100% - 90px);
 }
+ .text-page {
+	 margin-top: 40px;
+ }
 
 p {
 		font-family: 'Source Sans Pro', sans-serif;

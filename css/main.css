@@ -203,6 +203,12 @@ margin-top: 7px;
 	margin-top: 10px;
 }
 
+.section-title{
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+
 @media (max-width: 575px) {
 
 }

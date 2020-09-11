@@ -373,3 +373,7 @@ h1.page-title span {
 
 @media (max-width: 1199px) {
 }
+
+p a {
+  color: yellow;
+}

@@ -377,3 +377,8 @@ h1.page-title span {
 p a {
   color: yellow;
 }
+
+.subheading {
+  margin: 10px 0;
+  color: #62ff8c;
+}

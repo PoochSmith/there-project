@@ -92,6 +92,8 @@ p {
 .email-link {
   font-size: 22px;
   color: white;
+  margin-bottom: 5px;
+  display: block;
 }
 
 body {
@@ -375,10 +377,14 @@ h1.page-title span {
 }
 
 p a {
-  color: yellow;
+  text-decoration: underline;
 }
 
 .subheading {
   margin: 10px 0;
-  color: #62ff8c;
+  color: #fff;
+}
+
+p.social {
+  margin-bottom: 5px;
 }

@@ -388,3 +388,9 @@ p a {
 p.social {
   margin-bottom: 5px;
 }
+
+a.press {
+  text-decoration: underline;
+  color: white;
+  margin-bottom: 40px;
+}

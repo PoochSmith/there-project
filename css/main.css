@@ -392,5 +392,6 @@ p.social {
 a.press {
   text-decoration: underline;
   color: white;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
+  display: block;
 }
